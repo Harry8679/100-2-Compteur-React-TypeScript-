@@ -19,7 +19,7 @@ export const CounterDisplay = ({ value, min = -100, max = 100 }: CounterDisplayP
   const percentage = ((value - min) / (max - min)) * 100;
 
   return (
-    <div className={`bg-gradient-to-br ${getBgClass()} rounded-2xl p-8 shadow-lg`}>
+    <div className={`bg-linear-to-br ${getBgClass()} rounded-2xl p-8 shadow-lg`}>
       {/* Valeur principale */}
       <div className="text-center mb-6">
         <div className={`text-8xl font-bold ${getColorClass()} transition-all duration-300 transform hover:scale-110`}>
@@ -34,7 +34,7 @@ export const CounterDisplay = ({ value, min = -100, max = 100 }: CounterDisplayP
       <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
         <div
           className={`h-full transition-all duration-500 ${
-            value >= 0 ? 'bg-gradient-to-r from-green-400 to-green-600' : 'bg-gradient-to-r from-red-400 to-red-600'
+            value >= 0 ? 'bg-linear-to-r from-green-400 to-green-600' : 'bg-linear-to-r from-red-400 to-red-600'
           }`}
           style={{ width: `${percentage}%` }}
         />
