@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { HistoryEntry } from '../types';
+import type { HistoryEntry } from '../types';
 
 interface UseCounterProps {
   initialValue?: number;
