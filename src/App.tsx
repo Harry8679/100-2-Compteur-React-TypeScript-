@@ -2,7 +2,7 @@ import { Counter } from './components/Counter';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 py-12 px-4">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 via-purple-50 to-pink-50 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -157,7 +157,7 @@ setState(prev => ({
         </div>
 
         {/* Next Project */}
-        <div className="mt-8 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl shadow-lg p-6 text-white">
+        <div className="mt-8 bg-linear-to-r from-green-500 to-teal-500 rounded-xl shadow-lg p-6 text-white">
           <h3 className="text-xl font-bold mb-2">🚀 Prochaine étape</h3>
           <p className="mb-4">
             Projet 3 : Liste de Tâches Basique (map, key props, array state)
