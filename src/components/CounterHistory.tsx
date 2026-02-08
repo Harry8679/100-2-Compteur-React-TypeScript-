@@ -1,4 +1,4 @@
-import { CounterHistoryProps } from '../types';
+import type { CounterHistoryProps } from '../types';
 
 export const CounterHistory = ({ history, onClearHistory }: CounterHistoryProps) => {
   const formatTime = (date: Date) => {
