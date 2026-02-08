@@ -1,4 +1,4 @@
-import { CounterDisplayProps } from '../types';
+import type { CounterDisplayProps } from '../types';
 
 export const CounterDisplay = ({ value, min = -100, max = 100 }: CounterDisplayProps) => {
   // Déterminer la couleur en fonction de la valeur
