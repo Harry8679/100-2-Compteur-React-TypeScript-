@@ -1,4 +1,4 @@
-import { CounterControlsProps } from '../types';
+import type { CounterControlsProps } from '../types';
 
 export const CounterControls = ({ 
   onIncrement, 
