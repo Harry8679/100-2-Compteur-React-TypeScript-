@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { CounterProps } from '../types';
+import type { CounterProps } from '../types';
 import { useCounter } from '../hooks/useCounter';
 import { CounterDisplay } from './CounterDisplay';
 import { CounterControls } from './CounterControls';
